@@ -126,6 +126,38 @@ background-color: purple;
    
     }
   }
+  @media only screen and (max-height: 750px) {
+
+    #info{
+    
+        font-size: 25px;
+        margin-bottom: 2px;
+        color:black;
+        
+    }
+    
+    #btn-start{
+
+        margin-top: 1px;
+    }
+
+    .container{
+        display: flex;
+        height: 580px;
+        width: 700px;
+    
+    }
+    
+     .container > button{
+      
+        height: 195px;
+        width: 200px;
+     }
+
+   
+
+
+  }
   @media only screen and (max-width: 320px) {
       body{
           background-color: purple;

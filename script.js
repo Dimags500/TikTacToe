@@ -78,11 +78,11 @@ document.querySelectorAll('.btns').forEach(box => {
         || (arr[i] == 'GHI' || arr[i] == 'GIH' || arr[i] == 'HGI' || arr[i] == 'HIG' || arr[i] == 'IHG' || arr[i] == 'IGH' ) )
         {
 
-          if(arrO){
+          if(arr[i] == arrO){
             document.getElementById('info').innerHTML = " O is Win ";
             return;
           }
-          if(arrX){
+          if(arr[i] == arrX){
             document.getElementById('info').innerHTML = " X is Win ";
             return;
 
@@ -96,40 +96,6 @@ document.querySelectorAll('.btns').forEach(box => {
 
 
 
-    // if(arrX.length >= 3)
-    // {
-
-    //    let x = 0 ;
-
-    //    for (i = 0; i < arrX.length; i++){
-    //        if(arr)
-    //   //  }
-    //   //  if (x == 60 ||x == 150 || x == 240 || x == 120 || x == 180 || x == 140  )
-    //   //  {
-    //     document.getElementById('info').innerHTML = ' Winner X';   
-    //    }
-           
-    // }
-
-    // if(arrO.length >= 3)
-    // {
-
-   
-    //   let o = 0 ;
-
-    //    for (i = 0; i < counterO.length; i++){
-    //        o = o+ parseInt(counterO[i]);
-    //    }
-    //    if (o == 6 ||o == 15 || o == 24 || o == 12 || o == 18 || o == 14  ){
-    //     document.getElementById('info').innerHTML = ' Winner O ';   
-    //    }
-           
-    // }
-
-    // if(counterO.length > 9 || counterX.length >9){
-    //     document.getElementById('info').innerHTML = 'Noo is Winner ';   
-
-    // }
-   
+    
 
   
